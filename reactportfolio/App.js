@@ -1,1 +1,0 @@
-console.assert("Hello World".length === 11, "Hello World".length);
