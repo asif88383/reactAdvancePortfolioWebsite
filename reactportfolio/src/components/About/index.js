@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './index.scss';
 
 const About = () => {
@@ -73,8 +73,10 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Loader type="paceman" />
+            <Loader type="pacman" />
         </>
 
     )
 }
+
+export default About;
